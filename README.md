@@ -1,5 +1,6 @@
 # Inteligencia-Computacional
 Repositorio de tareas y actividades del curso EL4106 Inteligencia Computacional Primavera 2021, Universidad de Chile. 
+
 Profesor: Pablo Estevez V.
 Auxiliar: Ignacio Reyes J.
  
