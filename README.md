@@ -1,3 +1,6 @@
+
+<img src="bin/cropped-logo-fcfm-die-1.png" >
+
 # Inteligencia-Computacional
 Repositorio de tareas y actividades del curso EL4106 Inteligencia Computacional Primavera 2021, Universidad de Chile. 
 
@@ -44,12 +47,21 @@ Todas las tareas tienen 2 secciones, una parte teórica y una parte práctica/ex
 ### Tarea 2: Redes Neuronales Convolucionales (CNN)
 * Parte teórica: Cálculo de parámetros de la red VGGNet. 
 * Parte práctica: Clasificación de imágenes utilizando la base de datos CIFAR-10, la cual contiene 60000 imágenes de 32x32 a color, 50000 de entrenamiento y 10000 de prueba, 10 clases de imágenes con cada clase balanceada. Luego experimentos con respecto a esta. 
+
+<center>
+<img src="bin/tarea2.png" >
+ </center>
  
 ### Tarea 3: SVM y Random Forest
 Support Vector Machine o Máquinas de soporte vectorial y Random forest son técnicas de aprendizaje supervisado que tienen muy buenos resultados para problemas de clasificación (aunque también se pueden usar para problemas de regresión).
  
 * Parte teórica: Repaso de conceptos sobre estas técnicas. 
 * Parte práctica: Resolución de 2 problemas de clasificación binaria utilizando los conjuntos de datos "Two moons" y "Covertype dataset" utilizando SVM y Random forest respectivamente para cada conjunto.
+
+<center>
+<img src="bin/Tarea3.png" >
+<img src="bin/Tarea3-1.png" >
+ </center>
 
 ### Tarea 4: Aprendizaje NO supervisado
 Exploración de la base de datos de las exportaciones de cada país a partir de los datos del Observatorio de Complejidad Económica del MIT, utilizando algoritmos de aprendizaje no supervisado: PCA, Kernel-PCA, Mapas auto-organizativo de Kohonen (SOM).
