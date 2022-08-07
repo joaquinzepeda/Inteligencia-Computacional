@@ -66,6 +66,12 @@ Support Vector Machine o Máquinas de soporte vectorial y Random forest son téc
 ### Tarea 4: Aprendizaje NO supervisado
 Exploración de la base de datos de las exportaciones de cada país a partir de los datos del Observatorio de Complejidad Económica del MIT, utilizando algoritmos de aprendizaje no supervisado: PCA, Kernel-PCA, Mapas auto-organizativo de Kohonen (SOM).
 
+<div align="center">
+ <img width="500" src="Tareas/Tarea4/Solucion%20Tarea%204/p1/agrupados.png" >
+<img width="500" src="Tareas/Tarea4/Solucion%20Tarea%204/p3/som.png" >
+ </div>
+
+
 ## Proyecto: Clasificación de Supernovas
 
 Integrantes : Joaquin Zepeda, Benjamin Irarrazabal  
