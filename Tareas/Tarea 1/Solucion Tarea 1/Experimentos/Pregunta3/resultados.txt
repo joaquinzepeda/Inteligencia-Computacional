@@ -1,0 +1,168 @@
+experimento 8 -> corresponde a N=1
+
+Validation accuracy 0.912 +/- 0.005
+[0.9068826 0.9200405 0.909919  0.9089069 0.9139676]
+Train accuracy 0.914 +/- 0.005
+[0.9056375  0.91935784 0.9163711  0.9131977  0.91310436]
+
+Confusion matrix, without normalization
+[[890  84]
+ [103 871]]
+Training results:
+TP: 4764, TN: 5019, FP: 338, FN: 593
+91.3104% Accuracy (Porcentaje de clasificaciones correctas)
+93.3751% Precision
+88.9304% Recall
+
+Validation results:
+TP: 438, TN: 465, FP: 29, FN: 56
+91.3968% Accuracy (Porcentaje de clasificaciones correctas)
+93.7901% Precision
+88.6640% Recall
+
+Test results:
+TP: 871, TN: 890, FP: 84, FN: 103
+90.4004% Accuracy (Porcentaje de clasificaciones correctas)
+91.2042% Precision
+89.4251% Recall
+
+
+experimento 9 -> corresponde a N=10 -> se agregó al log del experimento 8 uwu
+
+Validation accuracy 0.976 +/- 0.006
+[0.965587   0.9757085  0.9736842  0.98178136 0.98178136]
+Train accuracy 0.996 +/- 0.003
+[0.9902931  0.99439985 0.9963599  0.9998133  0.9989733 ]
+
+Confusion matrix, without normalization
+[[956  18]
+ [ 22 952]]
+Training results:
+TP: 5353, TN: 5350, FP: 7, FN: 4
+99.8973% Accuracy (Porcentaje de clasificaciones correctas)
+99.8694% Precision
+99.9253% Recall
+
+Validation results:
+TP: 483, TN: 487, FP: 7, FN: 11
+98.1781% Accuracy (Porcentaje de clasificaciones correctas)
+98.5714% Precision
+97.7733% Recall
+
+Test results:
+TP: 952, TN: 956, FP: 18, FN: 22
+97.9466% Accuracy (Porcentaje de clasificaciones correctas)
+98.1443% Precision
+97.7413% Recall
+
+experimentos anteriores corresponden al N=25
+experimetno 10 -> corresponde a N=100
+
+Validation accuracy 0.981 +/- 0.002
+[0.98178136 0.9797571  0.9797571  0.98380566 0.9787449 ]
+Train accuracy 0.999 +/- 0.001
+[1.         0.9995333  0.9995333  0.99990666 0.99775994]
+
+
+Confusion matrix, without normalization
+[[944  30]
+ [ 10 964]]
+Training results:
+TP: 5355, TN: 5335, FP: 22, FN: 2
+99.7760% Accuracy (Porcentaje de clasificaciones correctas)
+99.5908% Precision
+99.9627% Recall
+
+Validation results:
+TP: 489, TN: 478, FP: 16, FN: 5
+97.8745% Accuracy (Porcentaje de clasificaciones correctas)
+96.8317% Precision
+98.9879% Recall
+
+Test results:
+TP: 964, TN: 944, FP: 30, FN: 10
+97.9466% Accuracy (Porcentaje de clasificaciones correctas)
+96.9819% Precision
+98.9733% Recall
+
+
+
+
+
+
+
+\begin{table}[h!]
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
+\begin{tabular}[c]{@{}l@{}}Número de\\ neuronas en la capa\\ oculta\end{tabular} & \begin{tabular}[c]{@{}l@{}}Train \\ accuracy\end{tabular} & \begin{tabular}[c]{@{}l@{}}Validation\\ accuracy\end{tabular} & \begin{tabular}[c]{@{}l@{}}Test \\ accuracy\end{tabular} & \begin{tabular}[c]{@{}l@{}}Test \\ Precision\end{tabular} & \begin{tabular}[c]{@{}l@{}}Test\\ Recall\end{tabular} \\ \hline
+1                                                                                & 0.914 +/- 0.005                                           & 0.912 +/- 0.005                                               & 90.4004\%                                                     & 91.2042\%                                                      & 89.4251\%                                                  \\ \hline
+10                                                                               & 0.996 +/- 0.003                                           & 0.976 +/- 0.006                                               & 97.9466\%                                                     & 98.1443\%                                                      & 97.7413\%                                                  \\ \hline
+25                                                                               & 0.998 +/- 0.001                                           & 0.981 +/- 0.001                                               & 98.0493\%                                                     & 97.6578\%                                                      & 98.4600\%                                                  \\ \hline
+100                                                                              & 0.999 +/- 0.001                                           & 0.981 +/- 0.002                                               & 97.9466\%                                                     & 96.9819\%                                                      & 98.9733\%                                                  \\ \hline
+\end{tabular}
+\caption{Tabla resultados pregunta 3}
+\label{tab:tabla pregunta 3}
+\end{table}
+
+experimento 11 -> 10 parte 2
+
+Validation accuracy 0.978 +/- 0.004
+[0.97672063 0.98380566 0.9807692  0.97672063 0.9736842 ]
+Train accuracy 0.998 +/- 0.002
+[0.99944    0.99990666 0.99757326 0.99887997 0.9955199 ]
+
+
+Confusion matrix, without normalization
+[[955  19]
+ [ 20 954]]
+Training results:
+TP: 5340, TN: 5326, FP: 31, FN: 17
+99.5520% Accuracy (Porcentaje de clasificaciones correctas)
+99.4228% Precision
+99.6827% Recall
+
+Validation results:
+TP: 485, TN: 477, FP: 17, FN: 9
+97.3684% Accuracy (Porcentaje de clasificaciones correctas)
+96.6135% Precision
+98.1781% Recall
+
+Test results:
+TP: 954, TN: 955, FP: 19, FN: 20
+97.9979% Accuracy (Porcentaje de clasificaciones correctas)
+98.0473% Precision
+97.9466% Recall
+
+Experimento 13 -> cambiando el early stopping por 1000 -> se espera observar un overfitting
+
+Validation accuracy 0.981 +/- 0.000
+[0.9807692]
+Train accuracy 1.000 +/- 0.000
+[1.]
+
+Confusion matrix, without normalization
+[[965   9]
+ [ 16 958]]
+Training results:
+TP: 5357, TN: 5357, FP: 0, FN: 0
+100.0000% Accuracy (Porcentaje de clasificaciones correctas)
+100.0000% Precision
+100.0000% Recall
+
+Validation results:
+TP: 486, TN: 483, FP: 11, FN: 8
+98.0769% Accuracy (Porcentaje de clasificaciones correctas)
+97.7867% Precision
+98.3806% Recall
+
+Test results:
+TP: 958, TN: 965, FP: 9, FN: 16
+98.7166% Accuracy (Porcentaje de clasificaciones correctas)
+99.0693% Precision
+98.3573% Recall
+
+
+
+
+
+
